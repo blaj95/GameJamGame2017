@@ -209,13 +209,13 @@ public class OVRPlayerController : MonoBehaviour
 		//moveDirection.y += FallSpeed * SimulationRate * Time.deltaTime;
 
 		// Offset correction for uneven ground
-		float bumpUpOffset = 0.0f;
+		//float bumpUpOffset = 0.0f;
 
-        if (Controller.isGrounded && MoveThrottle.y <= transform.lossyScale.y * 0.001f)
-		{
-			bumpUpOffset = Mathf.Max(Controller.stepOffset, new Vector3(moveDirection.x, 0, moveDirection.z).magnitude);
-			moveDirection -= bumpUpOffset * Vector3.up;
-		}
+  //      if (Controller.isGrounded && MoveThrottle.y <= transform.lossyScale.y * 0.001f)
+		//{
+		//	bumpUpOffset = Mathf.Max(Controller.stepOffset, new Vector3(moveDirection.x, 0, moveDirection.z).magnitude);
+		//	moveDirection -= bumpUpOffset * Vector3.up;
+		//}
 
 		Vector3 predictedXZ = Vector3.Scale((Controller.transform.localPosition + moveDirection), new Vector3(1, 0, 1));
 
