@@ -11,6 +11,7 @@ TagManager:
   - RightFly
   - Ring
   - Drink
+  - Mouth
   layers:
   - Default
   - TransparentFX
