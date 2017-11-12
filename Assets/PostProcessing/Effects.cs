@@ -34,7 +34,7 @@ public class Effects : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-        StartCoroutine("Drink");
+       // StartCoroutine("Drink");
         
 
         if (Input.GetKeyDown(KeyCode.E))
