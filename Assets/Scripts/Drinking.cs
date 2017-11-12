@@ -3,13 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.PostProcessing;
+
 public class Drinking : MonoBehaviour
 {
 
-    public int drunkScore = 0;
+    public static int drunkScore = 0;
     public Text drunkText;
     private AudioSource gulp;
     public static bool isDrinking;
+    public static bool isDrunk;
+    public GameObject mouth;
 
     public float quantitativeDrunk = 0f;
     public float shutterModifier = 0f;
@@ -21,6 +24,7 @@ public class Drinking : MonoBehaviour
 
     bool royMcGill = true;
 
+    public GameObject gameRig;
 
 
     public int scoreAdded;
@@ -28,7 +32,7 @@ public class Drinking : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-
+        isDrunk = false;
     }
 
     // Update is called once per frame
@@ -40,10 +44,24 @@ public class Drinking : MonoBehaviour
     public void OnTriggerStay(Collider other)
     {
 
-        if (other.gameObject.tag == "Drink")
+        if (other.gameObject.tag == "Drink" && Grab.isGrabbed == true)
         {
             Debug.Log("Chug Chug Chug");
             drunkScore = drunkScore + 1;
+            if(drunkScore > 1000)
+            {
+                drunkScore = 1000;
+                AudioSource gulp = mouth.GetComponent<AudioSource>();
+                gulp.enabled = false;
+                AudioSource puke = gameRig.GetComponent<AudioSource>();
+                puke.Play();
+                Debug.Log("PUKE");
+                isDrunk = true;
+            }
+            
+
+            drunkText.text = "Drunk Level: " + (drunkScore /10).ToString();
+            Debug.Log(drunkScore);
 
             if (royMcGill)
             {
@@ -55,20 +73,35 @@ public class Drinking : MonoBehaviour
 
     public void OnTriggerEnter(Collider other)
     {
-        gulp = GetComponent<AudioSource>();
-        gulp.enabled = true;
-        gulp.Play();
+        if (Grab.isGrabbed == true)
+        {
+            gulp = GetComponent<AudioSource>();
+            gulp.enabled = true;
+            gulp.Play();
 
+<<<<<<< HEAD
         gulp.loop = true;
         isDrinking = true;
         Debug.Log("GULP");
+=======
+            gulp.loop = true;
+            isDrinking = true;
+            Debug.Log("GULP");
+        }
+        
+
+>>>>>>> 992a90940f1036a969409fc5028ae5d9128762fa
     }
 
     public void OnTriggerExit(Collider other)
     {
-        gulp.loop = false;
-        gulp.enabled = false;
-        isDrinking = false;
+        
+
+
+            gulp.loop = false;
+            gulp.enabled = false;
+            isDrinking = false;
+        
     }
 
     private IEnumerator applyDrunk()
