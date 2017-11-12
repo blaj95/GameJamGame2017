@@ -20,10 +20,9 @@ public class Drinking : MonoBehaviour {
     {
         if(other.gameObject.tag == "Mouth")
         {
-            if (Vector3.Dot(transform.up, Vector3.down) > 0)
-            {
+            
                 Debug.Log("Chug Chug Chug");
-            }
+            
         }
     }
 }
