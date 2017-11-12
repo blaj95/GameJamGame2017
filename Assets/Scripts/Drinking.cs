@@ -79,18 +79,18 @@ public class Drinking : MonoBehaviour
             gulp.enabled = true;
             gulp.Play();
 
-<<<<<<< HEAD
+
         gulp.loop = true;
         isDrinking = true;
         Debug.Log("GULP");
-=======
+
             gulp.loop = true;
             isDrinking = true;
             Debug.Log("GULP");
         }
         
 
->>>>>>> 992a90940f1036a969409fc5028ae5d9128762fa
+
     }
 
     public void OnTriggerExit(Collider other)
