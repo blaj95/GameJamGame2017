@@ -8,6 +8,7 @@ public class Grab : MonoBehaviour
     // Use this for initialization
     private GameObject grabbedObject;
     private bool grabbing;
+    public static bool isGrabbed;
     public float grabRadius;
     public LayerMask grabMask;
     public OVRInput.Controller controller;
@@ -48,6 +49,7 @@ public class Grab : MonoBehaviour
             grabbedObject.GetComponent<Rigidbody>().isKinematic = true;
            
             grabbedObject.transform.parent = transform;
+            isGrabbed = true;
         }
     }
 
@@ -63,6 +65,7 @@ public class Grab : MonoBehaviour
             grabbedObject.GetComponent<Rigidbody>().angularVelocity = OVRInput.GetLocalControllerAngularVelocity(controller);
 
             grabbedObject = null;
+            isGrabbed = false;
         }
     }
 }
