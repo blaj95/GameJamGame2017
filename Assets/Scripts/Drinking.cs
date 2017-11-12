@@ -35,10 +35,6 @@ public class Drinking : MonoBehaviour
     void Update()
     {
 
-       
-
-       
-
     }
 
     public void OnTriggerStay(Collider other)
@@ -66,8 +62,6 @@ public class Drinking : MonoBehaviour
         gulp.loop = true;
         isDrinking = true;
         Debug.Log("GULP");
-        
-
     }
 
     public void OnTriggerExit(Collider other)
