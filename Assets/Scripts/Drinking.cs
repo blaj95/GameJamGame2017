@@ -7,6 +7,7 @@ public class Drinking : MonoBehaviour {
     public int drunkScore = 0;
     public Text drunkText;
     private AudioSource gulp;
+    public static bool isDrinking;
     // Use this for initialization
     void Start ()
     {
@@ -39,6 +40,8 @@ public class Drinking : MonoBehaviour {
         gulp.Play();
         
         gulp.loop = true;
+        isDrinking = true;
+        Debug.Log("GULP");
        
     }
 
@@ -46,5 +49,6 @@ public class Drinking : MonoBehaviour {
     {
         gulp.loop = false;
         gulp.enabled = false;
+        isDrinking = false;
     }
 }

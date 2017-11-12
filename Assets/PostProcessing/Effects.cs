@@ -9,7 +9,10 @@ public class Effects : MonoBehaviour {
     public float quantitativeDrunk = 0f;
     public float shutterModifier = 0f;
 
-
+    public void Awake()
+    {
+        resetDrunk();
+    }
 
 
     // Use this for initialization
@@ -26,12 +29,12 @@ public class Effects : MonoBehaviour {
         //my_Profile = Instantiate(behaviour.profile);
         //behaviour.profile = my_Profile;
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
 
-        if(Input.GetKeyDown(KeyCode.D))
+        if (Drinking.isDrinking == true)
         {
             var vignette = my_Profile.vignette.settings;
             var motionBlur = my_Profile.motionBlur.settings;
@@ -43,9 +46,10 @@ public class Effects : MonoBehaviour {
 
             my_Profile.motionBlur.settings = motionBlur;
             my_Profile.vignette.settings = vignette;
+            Debug.Log("GET KRUNK");
         }
 
-        if(Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             var vignette = my_Profile.vignette.settings;
             var motionBlur = my_Profile.motionBlur.settings;
@@ -59,9 +63,20 @@ public class Effects : MonoBehaviour {
 
 
         }
-        
-       
+    }
+       public void resetDrunk()
+       {
+            var vignette = my_Profile.vignette.settings;
+            var motionBlur = my_Profile.motionBlur.settings;
+
+            motionBlur.frameBlending = 0;
+            motionBlur.shutterAngle = 0;
+            vignette.intensity = 0;
+
+            my_Profile.motionBlur.settings = motionBlur;
+            my_Profile.vignette.settings = vignette;
+        }
         //motionBlur.frameBlending = Mathf.Abs((Mathf.Sin(Time.realtimeSinceStartup) * 0.99f) + 0.01f);
         
-	}
+	
 }
