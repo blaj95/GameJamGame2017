@@ -1,0 +1,1017 @@
+fileFormatVersion: 2
+guid: 4fea8c5c10bc1b24cb1ba190416d9aa0
+timeCreated: 1510436873
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Box001
+    100002: Box002
+    100004: Box003
+    100006: Box004
+    100008: Box005
+    100010: Box006
+    100012: Box007
+    100014: Box008
+    100016: Box009
+    100018: Box010
+    100020: Box011
+    100022: Box012
+    100024: Box013
+    100026: Box017
+    100028: Box019
+    100030: Box020
+    100032: Box021
+    100034: Box022
+    100036: Box023
+    100038: Box024
+    100040: Box025
+    100042: Box026
+    100044: Box027
+    100046: Box028
+    100048: Box029
+    100050: Box032
+    100052: Box033
+    100054: Box037
+    100056: Box038
+    100058: Box041
+    100060: Box042
+    100062: Box043
+    100064: Box044
+    100066: Box045
+    100068: Box046
+    100070: Cylinder001
+    100072: Cylinder002
+    100074: Cylinder003
+    100076: Cylinder004
+    100078: Cylinder005
+    100080: Cylinder006
+    100082: Cylinder007
+    100084: Cylinder008
+    100086: Cylinder009
+    100088: Cylinder010
+    100090: Cylinder011
+    100092: Cylinder012
+    100094: Cylinder014
+    100096: Cylinder015
+    100098: Cylinder017
+    100100: Cylinder019
+    100102: Cylinder021
+    100104: Cylinder023
+    100106: Cylinder025
+    100108: Cylinder027
+    100110: Cylinder029
+    100112: Cylinder031
+    100114: Cylinder033
+    100116: Cylinder034
+    100118: Cylinder035
+    100120: Cylinder036
+    100122: Cylinder037
+    100124: Cylinder038
+    100126: Cylinder039
+    100128: Cylinder040
+    100130: Cylinder041
+    100132: Cylinder042
+    100134: Cylinder043
+    100136: Cylinder044
+    100138: Cylinder045
+    100140: Cylinder046
+    100142: Cylinder047
+    100144: Cylinder048
+    100146: Cylinder049
+    100148: Cylinder050
+    100150: Cylinder051
+    100152: Cylinder052
+    100154: Cylinder053
+    100156: Cylinder054
+    100158: Cylinder055
+    100160: Cylinder056
+    100162: Cylinder057
+    100164: Cylinder058
+    100166: Cylinder059
+    100168: Cylinder060
+    100170: Cylinder061
+    100172: Cylinder062
+    100174: //RootNode
+    100176: Plane001
+    100178: Plane002
+    100180: Plane003
+    100182: Plane004
+    100184: Plane005
+    100186: Teapot001
+    400000: Box001
+    400002: Box002
+    400004: Box003
+    400006: Box004
+    400008: Box005
+    400010: Box006
+    400012: Box007
+    400014: Box008
+    400016: Box009
+    400018: Box010
+    400020: Box011
+    400022: Box012
+    400024: Box013
+    400026: Box017
+    400028: Box019
+    400030: Box020
+    400032: Box021
+    400034: Box022
+    400036: Box023
+    400038: Box024
+    400040: Box025
+    400042: Box026
+    400044: Box027
+    400046: Box028
+    400048: Box029
+    400050: Box032
+    400052: Box033
+    400054: Box037
+    400056: Box038
+    400058: Box041
+    400060: Box042
+    400062: Box043
+    400064: Box044
+    400066: Box045
+    400068: Box046
+    400070: Cylinder001
+    400072: Cylinder002
+    400074: Cylinder003
+    400076: Cylinder004
+    400078: Cylinder005
+    400080: Cylinder006
+    400082: Cylinder007
+    400084: Cylinder008
+    400086: Cylinder009
+    400088: Cylinder010
+    400090: Cylinder011
+    400092: Cylinder012
+    400094: Cylinder014
+    400096: Cylinder015
+    400098: Cylinder017
+    400100: Cylinder019
+    400102: Cylinder021
+    400104: Cylinder023
+    400106: Cylinder025
+    400108: Cylinder027
+    400110: Cylinder029
+    400112: Cylinder031
+    400114: Cylinder033
+    400116: Cylinder034
+    400118: Cylinder035
+    400120: Cylinder036
+    400122: Cylinder037
+    400124: Cylinder038
+    400126: Cylinder039
+    400128: Cylinder040
+    400130: Cylinder041
+    400132: Cylinder042
+    400134: Cylinder043
+    400136: Cylinder044
+    400138: Cylinder045
+    400140: Cylinder046
+    400142: Cylinder047
+    400144: Cylinder048
+    400146: Cylinder049
+    400148: Cylinder050
+    400150: Cylinder051
+    400152: Cylinder052
+    400154: Cylinder053
+    400156: Cylinder054
+    400158: Cylinder055
+    400160: Cylinder056
+    400162: Cylinder057
+    400164: Cylinder058
+    400166: Cylinder059
+    400168: Cylinder060
+    400170: Cylinder061
+    400172: Cylinder062
+    400174: //RootNode
+    400176: Plane001
+    400178: Plane002
+    400180: Plane003
+    400182: Plane004
+    400184: Plane005
+    400186: Teapot001
+    2300000: Box001
+    2300002: Box002
+    2300004: Box003
+    2300006: Box004
+    2300008: Box005
+    2300010: Box006
+    2300012: Box007
+    2300014: Box008
+    2300016: Box009
+    2300018: Box010
+    2300020: Box011
+    2300022: Box012
+    2300024: Box013
+    2300026: Box017
+    2300028: Box019
+    2300030: Box020
+    2300032: Box021
+    2300034: Box022
+    2300036: Box023
+    2300038: Box024
+    2300040: Box025
+    2300042: Box026
+    2300044: Box027
+    2300046: Box028
+    2300048: Box029
+    2300050: Box032
+    2300052: Box033
+    2300054: Box037
+    2300056: Box038
+    2300058: Box041
+    2300060: Box042
+    2300062: Box043
+    2300064: Box044
+    2300066: Box045
+    2300068: Box046
+    2300070: Cylinder001
+    2300072: Cylinder002
+    2300074: Cylinder003
+    2300076: Cylinder004
+    2300078: Cylinder005
+    2300080: Cylinder006
+    2300082: Cylinder007
+    2300084: Cylinder008
+    2300086: Cylinder009
+    2300088: Cylinder010
+    2300090: Cylinder011
+    2300092: Cylinder012
+    2300094: Cylinder014
+    2300096: Cylinder015
+    2300098: Cylinder017
+    2300100: Cylinder019
+    2300102: Cylinder021
+    2300104: Cylinder023
+    2300106: Cylinder025
+    2300108: Cylinder027
+    2300110: Cylinder029
+    2300112: Cylinder031
+    2300114: Cylinder033
+    2300116: Cylinder034
+    2300118: Cylinder035
+    2300120: Cylinder036
+    2300122: Cylinder037
+    2300124: Cylinder038
+    2300126: Cylinder039
+    2300128: Cylinder040
+    2300130: Cylinder041
+    2300132: Cylinder042
+    2300134: Cylinder043
+    2300136: Cylinder044
+    2300138: Cylinder045
+    2300140: Cylinder046
+    2300142: Cylinder047
+    2300144: Cylinder048
+    2300146: Cylinder049
+    2300148: Cylinder050
+    2300150: Cylinder051
+    2300152: Cylinder052
+    2300154: Cylinder053
+    2300156: Cylinder054
+    2300158: Cylinder055
+    2300160: Cylinder056
+    2300162: Cylinder057
+    2300164: Cylinder058
+    2300166: Cylinder059
+    2300168: Cylinder060
+    2300170: Cylinder061
+    2300172: Cylinder062
+    2300174: Plane001
+    2300176: Plane002
+    2300178: Plane003
+    2300180: Plane004
+    2300182: Plane005
+    2300184: Teapot001
+    3300000: Box001
+    3300002: Box002
+    3300004: Box003
+    3300006: Box004
+    3300008: Box005
+    3300010: Box006
+    3300012: Box007
+    3300014: Box008
+    3300016: Box009
+    3300018: Box010
+    3300020: Box011
+    3300022: Box012
+    3300024: Box013
+    3300026: Box017
+    3300028: Box019
+    3300030: Box020
+    3300032: Box021
+    3300034: Box022
+    3300036: Box023
+    3300038: Box024
+    3300040: Box025
+    3300042: Box026
+    3300044: Box027
+    3300046: Box028
+    3300048: Box029
+    3300050: Box032
+    3300052: Box033
+    3300054: Box037
+    3300056: Box038
+    3300058: Box041
+    3300060: Box042
+    3300062: Box043
+    3300064: Box044
+    3300066: Box045
+    3300068: Box046
+    3300070: Cylinder001
+    3300072: Cylinder002
+    3300074: Cylinder003
+    3300076: Cylinder004
+    3300078: Cylinder005
+    3300080: Cylinder006
+    3300082: Cylinder007
+    3300084: Cylinder008
+    3300086: Cylinder009
+    3300088: Cylinder010
+    3300090: Cylinder011
+    3300092: Cylinder012
+    3300094: Cylinder014
+    3300096: Cylinder015
+    3300098: Cylinder017
+    3300100: Cylinder019
+    3300102: Cylinder021
+    3300104: Cylinder023
+    3300106: Cylinder025
+    3300108: Cylinder027
+    3300110: Cylinder029
+    3300112: Cylinder031
+    3300114: Cylinder033
+    3300116: Cylinder034
+    3300118: Cylinder035
+    3300120: Cylinder036
+    3300122: Cylinder037
+    3300124: Cylinder038
+    3300126: Cylinder039
+    3300128: Cylinder040
+    3300130: Cylinder041
+    3300132: Cylinder042
+    3300134: Cylinder043
+    3300136: Cylinder044
+    3300138: Cylinder045
+    3300140: Cylinder046
+    3300142: Cylinder047
+    3300144: Cylinder048
+    3300146: Cylinder049
+    3300148: Cylinder050
+    3300150: Cylinder051
+    3300152: Cylinder052
+    3300154: Cylinder053
+    3300156: Cylinder054
+    3300158: Cylinder055
+    3300160: Cylinder056
+    3300162: Cylinder057
+    3300164: Cylinder058
+    3300166: Cylinder059
+    3300168: Cylinder060
+    3300170: Cylinder061
+    3300172: Cylinder062
+    3300174: Plane001
+    3300176: Plane002
+    3300178: Plane003
+    3300180: Plane004
+    3300182: Plane005
+    3300184: Teapot001
+    4300000: Box001
+    4300002: Box002
+    4300004: Box003
+    4300006: Box004
+    4300008: Box005
+    4300010: Box006
+    4300012: Box007
+    4300014: Box008
+    4300016: Box009
+    4300018: Box010
+    4300020: Box011
+    4300022: Box012
+    4300024: Box013
+    4300026: Box017
+    4300028: Box019
+    4300030: Box020
+    4300032: Box021
+    4300034: Box022
+    4300036: Box023
+    4300038: Box024
+    4300040: Box025
+    4300042: Box026
+    4300044: Box027
+    4300046: Box028
+    4300048: Box029
+    4300050: Box032
+    4300052: Box033
+    4300054: Box037
+    4300056: Box038
+    4300058: Box041
+    4300060: Box042
+    4300062: Box043
+    4300064: Box044
+    4300066: Box045
+    4300068: Box046
+    4300070: Cylinder001
+    4300072: Cylinder002
+    4300074: Cylinder003
+    4300076: Cylinder004
+    4300078: Cylinder005
+    4300080: Cylinder006
+    4300082: Cylinder007
+    4300084: Cylinder008
+    4300086: Cylinder009
+    4300088: Cylinder010
+    4300090: Cylinder011
+    4300092: Cylinder012
+    4300094: Cylinder014
+    4300096: Cylinder015
+    4300098: Cylinder017
+    4300100: Cylinder019
+    4300102: Cylinder021
+    4300104: Cylinder023
+    4300106: Cylinder025
+    4300108: Cylinder027
+    4300110: Cylinder029
+    4300112: Cylinder031
+    4300114: Cylinder033
+    4300116: Cylinder034
+    4300118: Cylinder035
+    4300120: Cylinder036
+    4300122: Cylinder037
+    4300124: Cylinder038
+    4300126: Cylinder039
+    4300128: Cylinder040
+    4300130: Cylinder041
+    4300132: Cylinder042
+    4300134: Cylinder043
+    4300136: Cylinder044
+    4300138: Cylinder045
+    4300140: Cylinder046
+    4300142: Cylinder047
+    4300144: Cylinder048
+    4300146: Cylinder049
+    4300148: Cylinder050
+    4300150: Cylinder051
+    4300152: Cylinder052
+    4300154: Cylinder053
+    4300156: Cylinder054
+    4300158: Cylinder055
+    4300160: Cylinder056
+    4300162: Cylinder057
+    4300164: Cylinder058
+    4300166: Cylinder059
+    4300168: Cylinder060
+    4300170: Cylinder061
+    4300172: Cylinder062
+    4300174: Plane001
+    4300176: Plane002
+    4300178: Plane003
+    4300180: Plane004
+    4300182: Plane005
+    4300184: Teapot001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box001Mat
+    second: {fileID: 2100000, guid: 2123316991dd68945ad9f86ff707427f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box002Mat
+    second: {fileID: 2100000, guid: 84fddf13b60d7a246aab1c7af9089566, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box003Mat
+    second: {fileID: 2100000, guid: 4a58a2ce58d2ddf40bd5d306c5192044, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box004Mat
+    second: {fileID: 2100000, guid: 3af5ee52817e2814eb583c30705f5693, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box005Mat
+    second: {fileID: 2100000, guid: 1c65d8aee8eeef641810b1d890c939f3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box006Mat
+    second: {fileID: 2100000, guid: 5f5849125d9a2604d8b0e253d96b35cf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box007Mat
+    second: {fileID: 2100000, guid: fd75ad5293e90534ab954262cf7cb9da, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box008Mat
+    second: {fileID: 2100000, guid: be25e94190962ba4db7f947a8e9e5bf1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box009Mat
+    second: {fileID: 2100000, guid: 7fa7e7182e996a947bd1cad04fb8cef9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box010Mat
+    second: {fileID: 2100000, guid: 64aa050026b9db943bc446c86446615a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box011Mat
+    second: {fileID: 2100000, guid: 617fbfb6a2898ba4bb742ab5371b5a5c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box012Mat
+    second: {fileID: 2100000, guid: 2052e173922d83940a5dc070f23ae9df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box013Mat
+    second: {fileID: 2100000, guid: dffe0f07ed877ce4cb8a579d526837d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box017Mat
+    second: {fileID: 2100000, guid: 74c84fdc23019db41a983660a686a0a8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box019Mat
+    second: {fileID: 2100000, guid: 5b52baaedca309a4d93cb108b70d341c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box020Mat
+    second: {fileID: 2100000, guid: d5b36d168a9e9c445b5ef3f961b458ce, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box021Mat
+    second: {fileID: 2100000, guid: 8c5a31c26c8ff674196d2181416b2984, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box022Mat
+    second: {fileID: 2100000, guid: 2697a381be2c8b044b865da6d8936b4f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box023Mat
+    second: {fileID: 2100000, guid: f5a7c8e73e0f00546b5310305878d3fd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box024Mat
+    second: {fileID: 2100000, guid: 0a51345e4a6753d4eb72ee0b88541cd9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box025Mat
+    second: {fileID: 2100000, guid: 994d3cab7cbc31a4dbc6e36cb012f734, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box026Mat
+    second: {fileID: 2100000, guid: 2e4c758fea3305f41a2ca4d7bb97da9a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box027Mat
+    second: {fileID: 2100000, guid: 877e4b18ee187744db3792c14f1907ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box028Mat
+    second: {fileID: 2100000, guid: bd16d7f2f1709f64582b45924c768fbc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box029Mat
+    second: {fileID: 2100000, guid: 336abdb6f5b3bfc4db0b3d8a8671a394, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box032Mat
+    second: {fileID: 2100000, guid: b28ec191a54860649a2981a00560e9de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box033Mat
+    second: {fileID: 2100000, guid: 7b0f1eb086629434a92c430d062f6509, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box037Mat
+    second: {fileID: 2100000, guid: 1a29e5a3e35e20f46a2f51750f376e63, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box038Mat
+    second: {fileID: 2100000, guid: 2385a7a047c7cda4ab6d0a3b7456f0ef, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box041Mat
+    second: {fileID: 2100000, guid: 0747f605c72a3e74bb0fd52691215f9e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box042Mat
+    second: {fileID: 2100000, guid: 779cc39a01de06f499a6b070ececf12d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box043Mat
+    second: {fileID: 2100000, guid: 2b7f9709e58d5b74dac349bd08337d91, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box044Mat
+    second: {fileID: 2100000, guid: 1e3cf21b54e4f1940b3c65db807af9b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box045Mat
+    second: {fileID: 2100000, guid: 13861ac15679a9143ba491d7fcf665ba, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Box046Mat
+    second: {fileID: 2100000, guid: 54133377dec6a5b4a8ef0e2fcd67ce2d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder001Mat
+    second: {fileID: 2100000, guid: a7ca92dcb23abbd41b6206f021069b1d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder002Mat
+    second: {fileID: 2100000, guid: c0149cefb37fef44db7ed2468c9db286, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder003Mat
+    second: {fileID: 2100000, guid: 2fdaa9085bfbfc74f98a2484098a823e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder004Mat
+    second: {fileID: 2100000, guid: 1f9a5d1f59d0d0c489ed9a1c91d7054e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder005Mat
+    second: {fileID: 2100000, guid: 026df01c9d61b174080162aee7275942, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder006Mat
+    second: {fileID: 2100000, guid: ffd352ed1919f9d4e8df8b7026d8d00d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder007Mat
+    second: {fileID: 2100000, guid: 3067f62d358a39146861695f2bedad40, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder008Mat
+    second: {fileID: 2100000, guid: 68b21661f02c1f1439a253012baa7e48, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder009Mat
+    second: {fileID: 2100000, guid: bbfa69a6080318841a9ef295c72ae389, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder010Mat
+    second: {fileID: 2100000, guid: 9fefb42816fbcbb41890b57ea41db027, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder011Mat
+    second: {fileID: 2100000, guid: eefbc97049cd8d14ca866093116a2f1a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder012Mat
+    second: {fileID: 2100000, guid: 30cfeb0c6374b1b459178589970362fe, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder014Mat
+    second: {fileID: 2100000, guid: ea43f1a64d391924c85dd981b1cdac05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder015Mat
+    second: {fileID: 2100000, guid: 7d02b1afa4af4a04a939841485bc2fd6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder017Mat
+    second: {fileID: 2100000, guid: de8fbdba6697978499985b33eff38845, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder019Mat
+    second: {fileID: 2100000, guid: 0e866da52807a934687e4fb959758b85, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder021Mat
+    second: {fileID: 2100000, guid: e8f4409088c7ab24f90b275f11439d70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder023Mat
+    second: {fileID: 2100000, guid: 975fc745339cdd745902579fa4933c18, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder025Mat
+    second: {fileID: 2100000, guid: 73ef66b9aaa311d44a237fb071600842, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder027Mat
+    second: {fileID: 2100000, guid: 392f9a10615154640af03a15b99e1d9c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder029Mat
+    second: {fileID: 2100000, guid: bda5e2c9405cca24ab68685b5b70646b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder031Mat
+    second: {fileID: 2100000, guid: 8d0909b98d3a6f343825c46fb95d3ddd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder033Mat
+    second: {fileID: 2100000, guid: c008e49dc9f746c45a07fe0cc039b75b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder034Mat
+    second: {fileID: 2100000, guid: 7cb089a55b5637a4fabb896b4465ecb3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder035Mat
+    second: {fileID: 2100000, guid: 2c37de1d43f8b70479df8af3d82f5a7c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder036Mat
+    second: {fileID: 2100000, guid: 73949c1fe18d68c439b5f21500c2ae16, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder037Mat
+    second: {fileID: 2100000, guid: f28ac89afa297b346aadb5a589150aaf, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder038Mat
+    second: {fileID: 2100000, guid: 39c1d4d4b97aaee43bc2e2a29e765bb8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder039Mat
+    second: {fileID: 2100000, guid: 3e14adcbd335bb74ca3958eb35c3b79f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder040Mat
+    second: {fileID: 2100000, guid: 7ea53d8760bd65647933cc5d26b231a2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder041Mat
+    second: {fileID: 2100000, guid: 60145e4a74b792042bdd62a732e42960, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder042Mat
+    second: {fileID: 2100000, guid: d237656940708bc49935c411b83827d3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder043Mat
+    second: {fileID: 2100000, guid: bff4f6774847b1d4485a2c2ed365e62a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder044Mat
+    second: {fileID: 2100000, guid: f3628b517e1345b4caf657972d6d34ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder045Mat
+    second: {fileID: 2100000, guid: a4851f3b4ac80194fbebe47a1b7e70fb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder046Mat
+    second: {fileID: 2100000, guid: 5f48aa6ca96ff3743a6202c9ee8c67dd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder047Mat
+    second: {fileID: 2100000, guid: 96dbab0d40a76be45bd2f287d26f52c1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder048Mat
+    second: {fileID: 2100000, guid: a60f52f1ea9b36c4088c1dc16a18cefb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder049Mat
+    second: {fileID: 2100000, guid: a9ff1d15424a0e644954067c91ae78ac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder050Mat
+    second: {fileID: 2100000, guid: 2830c0aa410fccb4e99a28b777f89d50, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder051Mat
+    second: {fileID: 2100000, guid: bad00b7235764dc4db84fd2ce093d1c9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder052Mat
+    second: {fileID: 2100000, guid: ea22458ed10413c47833fb7c7e42be70, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder053Mat
+    second: {fileID: 2100000, guid: 94c1bd1dab878204580bdea60a74e966, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder054Mat
+    second: {fileID: 2100000, guid: 925cc10beab3eae46ba68f74393ff68b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder055Mat
+    second: {fileID: 2100000, guid: 09754ab0b60a59b4aaa3c49f1e48acf6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder056Mat
+    second: {fileID: 2100000, guid: 5959e9629c80c63498d964868f703db8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder057Mat
+    second: {fileID: 2100000, guid: 9aeaf62b1d7f6b14688d522474f8e712, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder058Mat
+    second: {fileID: 2100000, guid: af19f0a7f29176b468ef3070561bcedc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder059Mat
+    second: {fileID: 2100000, guid: 4e72021c68377e643a1c6668d08900db, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder060Mat
+    second: {fileID: 2100000, guid: 76fe8d2d7a786ed40bcb037e6937e7f7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder061Mat
+    second: {fileID: 2100000, guid: 0a94df3c320369044b1efb901fb0041c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Cylinder062Mat
+    second: {fileID: 2100000, guid: 5aca6eabe1f35c54c9b7e2be9c23e2ab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane001Mat
+    second: {fileID: 2100000, guid: bd6d08c7fdbb7d44c926dfe9408ce7b7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane002Mat
+    second: {fileID: 2100000, guid: c5665393a75cd1c47b06b72a7c643169, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane003Mat
+    second: {fileID: 2100000, guid: e57bd3cc456b1434facda298ac97f3dc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane004Mat
+    second: {fileID: 2100000, guid: 165177f18bbb99d4cb0df4808ac59302, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Plane005Mat
+    second: {fileID: 2100000, guid: e754bdee7d947d84791ee89152a58970, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teapot001Mat
+    second: {fileID: 2100000, guid: d549f78398733a74fbe7634fa5df722a, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
