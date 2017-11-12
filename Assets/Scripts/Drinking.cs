@@ -1,11 +1,14 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 public class Drinking : MonoBehaviour {
 
-	// Use this for initialization
-	void Start ()
+    public int drunkScore = 0;
+    public Text drunkText;
+    private AudioSource gulp;
+    // Use this for initialization
+    void Start ()
     {
 		
 	}
@@ -16,13 +19,32 @@ public class Drinking : MonoBehaviour {
 		
 	}
 
-    private void OnTriggerStay(Collider other)
+    public void OnTriggerStay(Collider other)
     {
-        if(other.gameObject.tag == "Mouth")
+       
+        if(other.gameObject.tag == "Drink")
         {
             
-                Debug.Log("Chug Chug Chug");
+            Debug.Log("Chug Chug Chug");
+            drunkScore = drunkScore + 1;
             
+
         }
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        gulp = GetComponent<AudioSource>();
+        gulp.enabled = true;
+        gulp.Play();
+        
+        gulp.loop = true;
+       
+    }
+
+    public void OnTriggerExit(Collider other)
+    {
+        gulp.loop = false;
+        gulp.enabled = false;
     }
 }
