@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Collections;
 using UnityEngine.PostProcessing;
 
 public class Effects : MonoBehaviour {
@@ -33,21 +34,8 @@ public class Effects : MonoBehaviour {
     // Update is called once per frame
     void Update()
     {
-
-        if (Drinking.isDrinking == true)
-        {
-            var vignette = my_Profile.vignette.settings;
-            var motionBlur = my_Profile.motionBlur.settings;
-
-            motionBlur.frameBlending += quantitativeDrunk;
-            motionBlur.shutterAngle += shutterModifier;
-
-            vignette.intensity += quantitativeDrunk;
-
-            my_Profile.motionBlur.settings = motionBlur;
-            my_Profile.vignette.settings = vignette;
-            Debug.Log("GET KRUNK");
-        }
+        StartCoroutine("Drink");
+        
 
         if (Input.GetKeyDown(KeyCode.E))
         {
@@ -78,5 +66,26 @@ public class Effects : MonoBehaviour {
         }
         //motionBlur.frameBlending = Mathf.Abs((Mathf.Sin(Time.realtimeSinceStartup) * 0.99f) + 0.01f);
         
+    IEnumerator Drink()
+    {
+        if (Drinking.isDrinking == true)
+        {
+            yield return new WaitForSeconds(10);
+            var vignette = my_Profile.vignette.settings;
+            var motionBlur = my_Profile.motionBlur.settings;
+
+            motionBlur.frameBlending += quantitativeDrunk;
+            motionBlur.shutterAngle += shutterModifier;
+
+            vignette.intensity += quantitativeDrunk;
+
+            my_Profile.motionBlur.settings = motionBlur;
+            my_Profile.vignette.settings = vignette;
+            Debug.Log("GET KRUNK");
+        }
+
+        
+
+    }
 	
 }
