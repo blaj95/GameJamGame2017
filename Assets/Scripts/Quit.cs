@@ -22,7 +22,7 @@ public class Quit : MonoBehaviour {
         {
             Application.Quit();
             print("QUIT PLZ");
-            UnityEditor.EditorApplication.isPlaying = false;
+            //UnityEditor.EditorApplication.isPlaying = false;
         }
     }
 }

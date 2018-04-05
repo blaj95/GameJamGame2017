@@ -83,10 +83,7 @@ public class Drinking : MonoBehaviour
         gulp.loop = true;
         isDrinking = true;
         Debug.Log("GULP");
-<<<<<<< HEAD
 
-=======
->>>>>>> 2945cb0ee9ff7240fe41a9ac5ff5e05cbbe77644
             gulp.loop = true;
             isDrinking = true;
             Debug.Log("GULP");
